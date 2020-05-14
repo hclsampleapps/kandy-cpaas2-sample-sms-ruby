@@ -5,10 +5,10 @@ This is a simple sms application where a user can send an sms, subscribe sms not
 Strps for Installation
 1. Copy `.env.example` and rename to `.env` and add the appropriate values.
 Example : 
-CLIENT_ID=faaaf096-73a1-4f48-9814-674a30562b0e
-CLIENT_SECRET=4d821aba-c758-4294-b57a-cb5e416c32e8
+CLIENT_ID=abcde123-12a1-1a23-1234-123a12345a1a
+CLIENT_SECRET=123abcde-a123-1234-abcd-ab12345c67d8
 BASE_URL=https://oauth-cpaas.att.com
-PHONE_NUMBER=+12102424497
+PHONE_NUMBER=+16543219870
 
 
 2. To install dependencies, run:
