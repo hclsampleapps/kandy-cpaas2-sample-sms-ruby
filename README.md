@@ -44,7 +44,9 @@ As incoming notifications are to be received by the local server, there is a req
 
 #### How to use ngrok
 After installing `ngrok`, run the following command
- ngrok http 3001
+```bash
+ngrok http 3001
+```
 
 3001 is the `PORT` that is used while running the software.
 Once `ngrok` starts forwarding the `localhost`, you would find a similar kind of message in your screen.
