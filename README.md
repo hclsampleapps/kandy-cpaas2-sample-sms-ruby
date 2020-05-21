@@ -12,11 +12,14 @@ Example :
 
 
 2. To install dependencies, run: 
- bundle install
+```bash
+bundle install
+```
 
 3. To start the server, run:
- bundle exec rackup -p 6000
-
+```bash
+bundle exec rackup -p 6000
+```
 | ENV KEY       | Description                                                  |
 | ------------- | ------------------------------------------------------------ |
 | CLIENT_ID     | Private project key                                          |
@@ -46,8 +49,10 @@ After installing `ngrok`, run the following command
 3001 is the `PORT` that is used while running the software.
 Once `ngrok` starts forwarding the `localhost`, you would find a similar kind of message in your screen.
 
+```bash
  Forwarding          -          http://29de1e3e.ngrok.io -> http://localhost:3001
  Forwarding          -          https://29de1e3e.ngrok.io -> http://localhost:3001
+```
 
 After this the usage part of `ngrok` is done and we got out public domain, let's shift out attention to the notification subscription.
 
