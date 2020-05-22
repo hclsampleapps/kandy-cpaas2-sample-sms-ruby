@@ -1,0 +1,36 @@
+
+input[type=text],
+input[type=password] {
+    width: 300px;
+}
+li {
+    margin-bottom: 5px;
+}
+box {
+    border: 1px solid #333333;
+    height: 200px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  margin-left: 5px;
+ 
+}
+
+.right {
+  right: 0;
+  margin-left: 5px;
+ 
+}
+
