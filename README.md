@@ -1,4 +1,4 @@
-# Kandy-cpaas2-sample-sms-ruby
+# kandy-cpaas2-sample-sms-ruby
 
 This is a SMS application where a user can send an sms, subscribe sms notification and receive real-time sms events (inbound, outbound etc notification).
 
@@ -32,7 +32,7 @@ ENV KEY       | Description
 CLIENT_ID     | Private project key
 CLIENT_SECRET | Private project secret
 BASE_URL      | URL of the CPaaS server to use
-SENDER_NUMBER  | Phone number purchased in CPaaS portal (sender phone number)
+SENDER_NUMBER | Phone number purchased in CPaaS portal (sender phone number)
 
 
 ## Usage
@@ -62,7 +62,7 @@ After installing `ngrok`, run the following command
 ngrok http 3001
 ```
 
-3001 is the `PORT` that is used while running the software.
+Where 3001 is the `PORT` that is used while running the software.
 
 Once `ngrok` starts forwarding the `localhost`, you would find a similar kind of message in your screen.
 
