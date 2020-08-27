@@ -11,7 +11,7 @@ This is a SMS application where a user can send an sms, subscribe sms notificati
     Example : 
      CLIENT_ID=abcde123-12a1-1a23-1234-123a12345a1a
      CLIENT_SECRET=123abcde-a123-1234-abcd-ab12345c67d8
-     BASE_URL=https://oauth-cpaas.att.com
+     BASE_URL=baseurl.domain.com
      PHONE_NUMBER=+16543219870
     ```
 
